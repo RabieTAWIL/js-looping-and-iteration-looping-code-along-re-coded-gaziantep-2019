@@ -42,7 +42,7 @@ describe( 'index.js', () => {
     let spy;
 
     beforeEach( () => {
-      spy = sinon.stub( Math, 'random' );
+      spy = sinon.stub( window.Math, 'random' );
     } );
 
     afterEach( () => {
